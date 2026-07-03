@@ -1,1 +1,90 @@
-Question1
+## Q1. I think of it like making a phone call. My browser doesn't know where "google.com" is located, so it asks a "phonebook" (DNS) for Google's specific number (IP address). Once it gets that number, my computer sends a request over the internet to Google's servers, and the servers send the website back for my browser to display. 
+
+##Q2.Difference between a Client and a Server.
+​Client:I device or software making a request,example: The Google Chrome browser on my phone.
+​Server: Refers to a computer waiting to receive a requests and send data back, example: The computer system owned by Google that stores and sends out search results
+
+##Q3. DNS, which stands for Domain Name System, works like a phonebook for the internet. It is needed because people find it very easy to remember website names like google.com, while computers recognize only IP addresses such as 042.220.190. DNS changes the domain name into the correct IP address so the computer can locate the website Without the DNS, there won't be any responsd.
+
+##Q4.How does a Firewall work?
+A firewall acts like a security barrier between a network and the internet. It monitors incoming and outgoing traffic, allowing safe connections while blocking unauthorized or potentially harmful access. Its main purpose is to protect systems from cyber threats.
+How does a Load Balancer work?
+
+     A load balancer manages incoming network traffic by distributing user requests across multiple servers. This prevents any single server from becoming overloaded and helps ensure that applications remain fast and available, even during periods of high traffic.
+
+    Difference between a Firewall and a Load Balancer
+A firewall protects the network, while a load balancer helps the network handle many users efficiently.
+
+##Q5. Web Server vs. Application Server.
+​Web Server: Handles static files like, raw HTML, CSS, and image.
+​Application Server: Handles the heavy lifting logic, runs backend code, and talks to the database.
+​ A backend developer works mostly with the Application Server because that is where the actual programming logic, user authentication, and business rules live.
+
+##Q6.​ A client does not connect directly to the database because it would create serious security risks. If users could access the database directly, they might be able to view, or delete sensitive information without permission. Instead, requests are sent through an application server, which verifies the user's identity, checks their login credentials, and ensures they can only access the data they are authorized to see. This approach helps protect the database and keeps user information secure.
+
+##Q7. The ug.edu.gh/statistics website is likely static because its content such as department information and course lists remains the same for all visitors until a webmaster manually updates the files.
+In contrast, the MTN MoMo account page is dynamic because each user sees personalized information like their own account balance and transaction history. The server retrieves this data in real time from a databas
+
+##Q8.  Frontend development is the part of a website or application that users directly interact with. It focuses on the user interface (UI) and user experience (UX), including elements such as , forms, colors, and navigation. It runs in the browser using technologies like HTML, and JavaScript.
+Backend development is the server-side part that users do not see. It handles data processing, authentication, and database operations. It runs on a server and typically uses languages such as Python, Java, PHP, and Node.js.
+
+       The backend is responsible for checking the password against the database.
+Reason:
+The database is stored on the server, not in the browser.
+Password verification requires access to sensitive data, which is securely stored (usually hashed).
+If this were done on the frontend, users could inspect or manipulate the code and bypass security.
+
+
+PART 2: DIAGRAM TASK
+Client (Browser)
+    |
+    |--> Sends a request to open a website
+    v
+DNS
+    |
+    |--> Finds the website's IP address
+    v
+Firewall
+    |
+    |--> Checks whether the request is safe
+    v
+Load Balancer
+    |
+    |--> Sends the request to an available web server
+    v
+Web Server
+    |
+    |--> Receives the request and forwards it to the application server
+    v
+Application Server
+    |
+    |--> Processes the request and asks the database for data
+    v
+Database
+    |
+    |--> Returns the requested data
+    v
+Application Server
+    |
+    |--> Prepares the response
+    v
+Web Server
+    |
+    |--> Sends the response back to the client
+    v
+Client (Browser)
+    |
+    |--> Displays the webpage to the me
+
+## Q9.Backend developers need to know how to use the command line because  many production backend servers do not have a visual screen or a mouse interface (GUI). They are just remote computers running Linux text terminals, so you must know how to control them with text.
+
+##Q10. With absolute path, the full address starts from the very root of the computer. Example: /home/user/t4g_assignment/class01. While,
+ Relative  path a is direction starting from where you are currently standing or location. Example: ../class02 (Go up one folder, thintoclass02).
+
+##Q11. I will tell that, file Explorer is great for daily personal use, but CLI commands is powerful and , run thousands of times faster, and allow you to manage files on cloud servers thousands of miles away where File Explorer doesn't exist
+
+##Q12. The ~ symbol represents the current user's home directory. For example, typing cd ~ takes you back to your home folder.
+        The $ symbol is the command prompt for a regular user. It shows that the terminal is ready to accept commands.
+
+
+PART 4: TERMINAL PRACTCAL  TASKS
