@@ -87,4 +87,4 @@ Client (Browser)
         The $ symbol is the command prompt for a regular user. It shows that the terminal is ready to accept commands.
 
 
-PART 4: TERMINAL PRACTCAL  TASKS
+PART 4: TERMINAL PRACTCAL  TASKS.
